@@ -22,14 +22,13 @@ pip install scikit-fuzzy
 ```bash
 python end_face_measurement.py
 ```
-### 載入預訓練的YOLO模型
+#### 載入預訓練的YOLO模型
 model = YOLO("/*Your.pt")
-### 設定路徑
+#### 設定路徑
 folder = Path('/Your image path/')  
 save_path = Path('/Save path/')  
 
 ## 2-nd
-
 ```bash
 python fuzzy_c_means_final.py
 ```
